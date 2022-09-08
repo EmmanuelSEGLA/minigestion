@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    <link rel="stylesheet" href="css/inputAndBtn.css">
+    <link rel="stylesheet" href="css/header.css">
+    
+    <title>BUSINESS</title>
+</head>
+<body>
+    
+    <main>
+        <header>
+            <section class="title">
+                <h1 data-text="Market">Market <span data-text="BUSINESS" class="busi">BUSINESS</span>
+
+                </h1>
+                
+            </section>
+            <section class="btnPincipal" id="btnPincipal">
+                
+                <button type="" id="btnFormAdd" class="btnOn">cliquer pour entrer un Produit</button>
+            </section>
+        </header>
+
+        <section class="formContent">
+
+            
+            <form action="" id="prodRegister" hidden>
+
+                <div class="form-submitbox">
+                    <h2>Ajouter un Produit</h2>
+                </div>
+                <div class="form-box">
+                    <div class="form-left">
+                        <div class="input1box">
+                            <input type="text" name=""  placeholder="Name Product" id="formProdNameInput" required>
+                        </div>
+                        <div class="input2box">
+                            <input type="number" name="" placeholder="Market Price" id="formMarketPriceInput" required>
+                        </div>
+                    </div>
+                    <div class="form-right">
+                        <div class="input3box">
+                            <input type="number" name="" placeholder="Selling Price" id="formSellingPriceInput" required>
+                        </div>
+                        <div class="input4box">
+                            <input type="number" name="" placeholder="Stock Quantity" id="formQuantityInput" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-submitbox">
+                    <button type="submit" class="submitBtn">Submit</button>
+                </div>
+    
+                
+            </form>
+            
+        </section>
+        <section class="tab">
+            <div class="tableContent">
+
+                <table class="prodTab" >
+                    <thead class="">
+                        <tr>
+                            <th>Name Product</th>
+                            <th>Market Price</th>
+                            <th>Selling Price</th>
+                            <th>Stock Quantity</th>
+                            <th>Options</th>
+                        </tr>
+                    </thead>
+                    <tbody id="prodTabBody" class="prodTabBody"></tbody>
+                </table>
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
